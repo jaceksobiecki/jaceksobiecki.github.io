@@ -1,110 +1,142 @@
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font: inherit;
-  vertical-align: baseline;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
 }
-
 /* HTML5 display-role reset for older browsers */
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-  display: block;
+	display: block;
 }
-
 body {
-  line-height: 1;
+	line-height: 1;
 }
-
 blockquote, q {
-  quotes: none;
+	quotes: none;
 }
-
 blockquote:before, blockquote:after, q:before, q:after {
-  content: '';
-  content: none;
+	content: '';
+	content: none;
 }
-
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
-
 strong, b {
-  font-weight: bold;
+	font-weight: bold;
 }
-
 em, i {
-  font-style: italic;
+	font-style: italic;
 }
-
 a img {
-  border: none;
+	border: none;
 }
-
 /* END RESET*/
 
 /* STYLES */
-/*
 html {
-  background: url(stardust.png) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-*/
-
-h1 {
-  font-size: 7vw;
-  font-family: menlo;
-  margin-top: 0;
-}
-body {
-}
-.full-page {
-  background-size: cover;
-  height: 100vh;
-  position: relative;
-  text-align: center;
+    background: #303740;
+    color: white;
+    
 }
 
-
-.full-page h1 {
-  color: black;
-  font-size: 7vw;
-  margin-bottom: 1em;
+.header {
+    height: 20vh;
+    width: 100%;
+    position: relative;
 }
 
-.content {
-  transform: translate(0, 70%);
+.logo {
+    box-sizing: border-box;
+    display: block;
+    height: 10vh;
+    padding-top: 6.5vh;
+    padding-left: 5vw;
+    position: relative;
+    text-align: center;
+    width: 10vh;
+}
+
+.logo img {
+    width: 6vh;
 }
 
 .link {
-  background: rgba(150, 150, 150, 0.5);
-  border-radius: 99px;
-  box-sizing: border-box;
-  color: #fff;
-  display: inline-block;
-  font-family: helvetica, arial, sans;
-  font-size: 2rem;
-  font-weight: bold;
-  height: 2.5em;
-  line-height: 1;
-  padding-top: 0.85em;
-  text-align: center;
-  text-decoration: none;
-  vertical-align: middle;
-  width: 2.5em;
+    font-size: 25px;
+    color: white;
 }
 
 .social-list {
-  list-style: none;
-  padding: 0;
-  text-align: center;
+    float: right;
+    padding: 8vh 6vw 0 0
 }
 
-.social-list>li {
-  display: inline-block;
-  margin: 0 2em;
+.social-list > li {
+    display: inline-block;
+    margin-left: 1em;
+
+}
+
+.intro {
+    height: 13vh;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.name {
+    font-family: apple symbols;
+    font-size: 2vh;
+    margin-bottom: 0.5vh;
+}
+
+.title {
+    font-family: menlo;
+    font-size: 1vh;
+    color: #DDDDDD;
+}
+.contact{
+    float: left;
+    width: 50%;
+    text-align: center;
+    height: 3vh;
+    transform: translate(0,400%)
+}
+.contact a{
+    font-style: normal;
+    font-family: helvetica neue;
+    font-size: 2vh;
+    font-weight: 500;
+    color: #E0E0E0;
+    text-decoration: none;
+}
+.contact:hover a p.new-label span{
+    display: none;
+}
+.contact:hover a p.new-label:after{
+    content: 'jsobiecki01@gmail.com';
+}
+.line{
+    float: left;
+    background-color: white;
+    height: 30vh;
+    width: 1px;
+    
+}
+.bio {
+    float: right;
+    width: 49%;
+    text-align: center;
+    height: 3vh;
+    transform: translate(-10%,400%)
+
+}
+.bio p{
+    font-family: helvetica neue;
+    font-size: 2vh;
+    font-weight: 500;
+    color: #E0E0E0;
+    
 }
