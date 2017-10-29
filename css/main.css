@@ -100,7 +100,6 @@ html {
 }
 
 .name {
-    width: 10em;
     font-family: apple symbols;
     font-size: 2vh;
     margin-bottom: 0.5vh;
@@ -194,4 +193,15 @@ html {
     100%{
         opacity: 1;
     }
+}
+.bio-text{
+    position: fixed;
+    background-color: cadetblue;
+    height: 80vh;
+    width: 24em;
+    top: 10vh;
+    right: 2vw;
+    
+    
+    opacity: 0;
 }
