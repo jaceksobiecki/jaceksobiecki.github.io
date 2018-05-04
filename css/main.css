@@ -120,19 +120,7 @@ html {
     }
 }
 
-.title {
-    font-family: menlo;
-    font-size: 1vh;
-    color: #DDDDDD;
-    width: 10em;
-    height: 2em;
-    opacity: 0;
-    
-    overflow: hidden;
-    white-space: nowrap;
-    margin: 0 auto;
-    animation : typing 3s ease 4s forwards;
-}
+
 .contact{
     float: left;
     width: 50%;
