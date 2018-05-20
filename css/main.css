@@ -36,8 +36,9 @@ a img {
 /* END RESET*/
 
 /* STYLES */
+
 html {
-    background: #303740;
+    background: #2C333B;
     color: white;
     
 }
@@ -48,6 +49,12 @@ html {
     position: relative;
     opacity: 0;
     animation: from-top 3s ease 1s forwards;
+}
+.headerBio {
+    height: 20vh;
+    width: 100%;
+    position: relative;
+    opacity: 100;
 }
 @keyframes from-top{
     0%{
@@ -100,26 +107,30 @@ html {
 }
 
 .name {
-    font-family: apple symbols;
-    font-size: 2vh;
+    font-family: 'Belleza', sans-serif;
+    font-size: 1.7vh;
     margin-bottom: 0.5vh;
+    height: 2vh;
+    color: aliceblue;
+    text-decoration-line: none;
     
     overflow: hidden;
     white-space: nowrap;
     margin: 0 auto;
     animation : fade-in 3s;
 }
-@keyframes typing {
-    0%{
-        width: 0;
-        opacity: 1;
-    }
-    100%{
-        width: 10em;
-        opacity: 1;
-    }
+.nameBio {
+    font-family: 'Belleza', sans-serif;
+    font-size: 1.7vh;
+    margin-bottom: 0.5vh;
+    height: 2vh;
+    color: aliceblue;
+    text-decoration-line: none;
+    
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
 }
-
 
 .contact{
     float: left;
@@ -129,6 +140,21 @@ html {
     transform: translate(0,400%)
 }
 .contact a{
+    font-style: normal;
+    font-family: helvetica neue;
+    font-size: 2vh;
+    font-weight: 500;
+    color: #E0E0E0;
+    text-decoration: none;
+}
+.contactBio{
+    float: left;
+    width: 50%;
+    text-align: center;
+    height: 3vh;
+    transform: translate(0,400%)
+}
+.contactBio a{
     font-style: normal;
     font-family: helvetica neue;
     font-size: 2vh;
@@ -152,6 +178,12 @@ html {
     width: 1px;
     animation: stretch 3s;
 }
+.lineBio{
+    float: left;
+    background-color: white;
+    height: 30vh;
+    width: 1px;
+}
 @keyframes stretch{
     0%{
         height: 0;
@@ -167,12 +199,27 @@ html {
     height: 3vh;
     transform: translate(-10%,400%);
 }
-.bio p{
+.bio a{
     font-family: helvetica neue;
     font-size: 2vh;
     font-weight: 500;
     color: #E0E0E0;
     animation: fade-in 3s;
+    text-decoration-line: none;
+}
+.bioBio {
+    float: right;
+    width: 49%;
+    text-align: center;
+    height: 3vh;
+    transform: translate(-10%,400%);
+}
+.bioBio a{
+    font-family: helvetica neue;
+    font-size: 2vh;
+    font-weight: 500;
+    color: #E0E0E0;
+    text-decoration-line: none;
 }
 @keyframes fade-in{
     0%{
@@ -184,12 +231,39 @@ html {
 }
 .bio-text{
     position: fixed;
-    background-color: cadetblue;
-    height: 80vh;
-    width: 24em;
-    top: 10vh;
-    right: 2vw;
+    background-color: lightgrey;
+    margin: auto;
+    position: absolute;
+    left:0;
+    right: 0;
+    top: 20%;
+    bottom: 0;
+    height: 60vh;
+    width: 90%;
     
-    
-    opacity: 0;
+    animation: fade-in 1s;
+}
+
+.about-head{
+    text-align: center;
+    transform: translate(0,200%);
+    color: black;
+}
+
+.about-body{
+    float: left;
+    margin-left: 10%;
+    height: 20vh;
+    width: 80%;
+    color: black;
+    transform: translate(0,50%);
+}
+.about-body p{
+    line-height: 200%;
+    font-size: 1.7vh;
+    font-weight: 350;
+}
+.git-link{
+        text-decoration-line: none;
+    color: darkcyan;
 }
