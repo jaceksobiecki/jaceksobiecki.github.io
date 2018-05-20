@@ -112,7 +112,7 @@ html {
     margin-bottom: 0.5vh;
     height: 2vh;
     color: aliceblue;
-    text-decoration-line: none;
+    text-decoration: none!important;
     
     overflow: hidden;
     white-space: nowrap;
@@ -125,8 +125,7 @@ html {
     margin-bottom: 0.5vh;
     height: 2vh;
     color: aliceblue;
-    text-decoration-line: none;
-    
+    text-decoration: none!important;
     overflow: hidden;
     white-space: nowrap;
     margin: 0 auto;
@@ -145,7 +144,7 @@ html {
     font-size: 2vh;
     font-weight: 500;
     color: #E0E0E0;
-    text-decoration: none;
+    text-decoration: none!important;
 }
 .contactBio{
     float: left;
@@ -160,7 +159,7 @@ html {
     font-size: 2vh;
     font-weight: 500;
     color: #E0E0E0;
-    text-decoration: none;
+    text-decoration: none!important;
 }
 .contact p{
         animation: fade-in 3s;
@@ -205,7 +204,7 @@ html {
     font-weight: 500;
     color: #E0E0E0;
     animation: fade-in 3s;
-    text-decoration-line: none;
+    text-decoration: none!important;
 }
 .bioBio {
     float: right;
@@ -219,7 +218,7 @@ html {
     font-size: 2vh;
     font-weight: 500;
     color: #E0E0E0;
-    text-decoration-line: none;
+    text-decoration: none!important;
 }
 @keyframes fade-in{
     0%{
@@ -264,6 +263,6 @@ html {
     font-weight: 350;
 }
 .git-link{
-        text-decoration-line: none;
+    text-decoration: none!important;
     color: darkcyan;
 }
